@@ -11,8 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
+    "@serenity-js/console-reporter": "^3.35.1",
+    "@serenity-js/core": "^3.35.1",
+    "@serenity-js/cucumber": "^3.35.1",
+    "@serenity-js/playwright": "^3.35.1",
+    "@serenity-js/serenity-bdd": "^3.35.1",
+    "@serenity-js/web": "^3.35.1",
     "@types/node": "^22.13.0",
-    "@cucumber/cucumber": "^11.2.0",
     "ts-node": "^10.9.2"
   }
 }
