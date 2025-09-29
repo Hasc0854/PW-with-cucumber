@@ -2,17 +2,20 @@ module.exports =
 {
   "default": {
     "requireModule": [
-      "ts-node/register",
-      "@serenity-js/cucumber" // ¡IMPORTANTE! Esto activa el Screenplay World
+      "ts-node/register" 
     ],
     "paths": ["src/test/features/**/*.feature"],
     "require": [
-      "src/test/steps/**/*.ts",
-      "src/hooks/hooks.ts"
+    
+      "src/hooks/hooks.ts", 
+      
+      "src/test/steps/**/*.ts" 
     ],
     "format": [
-      "@serenity-js/console-reporter", // Muestra el progreso en la consola
-      "json:target/cucumber/cucumber.json" // JSON para el reporte BDD
+      "@serenity-js/cucumber",
+      "@serenity-js/console-reporter",
+      "json:target/cucumber/cucumber.json",
+      "@serenity-js/serenity-bdd"
     ],
     "publishQuiet": true
   }

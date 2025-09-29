@@ -2,18 +2,18 @@
     "compilerOptions": {
         "target": "ES2020",
         "module": "CommonJS",
-        "moduleResolution": "node", // CLAVE para buscar en node_modules
+        "moduleResolution": "node",
         "strict": true,
         "esModuleInterop": true,
-        "skipLibCheck": true, // Para ignorar errores de tipos en node_modules
+        "skipLibCheck": true,
         
-        "baseUrl": ".", // Le dice a TypeScript que la raíz del proyecto es el directorio actual
+        "baseUrl": ".",
         "outDir": "dist",
-        "resolveJsonModule": true // Útil si usas archivos de configuración JSON
+        "resolveJsonModule": true
     },
     "include": [
         "src/**/*",
-        "**/*.ts" // A veces es necesario incluir todos los archivos .ts en la raíz
+        "**/*.ts"
     ],
     "exclude": [
         "node_modules"

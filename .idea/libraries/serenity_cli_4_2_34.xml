@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="serenity-cli-4.2.34">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/node_modules/@serenity-js/serenity-bdd/cache/serenity-cli-4.2.34.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
