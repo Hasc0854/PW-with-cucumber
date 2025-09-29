@@ -4,7 +4,7 @@ module.exports =
     "requireModule": [
       "ts-node/register" 
     ],
-    "paths": ["src/test/features/**/*.feature"],
+    "paths": ["src/test/features/*.feature"],
     "require": [
     
       "src/hooks/hooks.ts", 

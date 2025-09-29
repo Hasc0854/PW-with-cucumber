@@ -1,6 +1,6 @@
 
 import { Task } from '@serenity-js/core';
-import { Enter, Click, page } from '@serenity-js/web';
+import { Enter, Click, Page } from '@serenity-js/web';
 import { LoginPage } from '../ui/LoginPage'; // Tus Page Objects se convierten en Locators
 
 export const Login = {
